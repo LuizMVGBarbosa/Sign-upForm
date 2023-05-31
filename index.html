@@ -18,29 +18,35 @@
 </div>
      <div class="rightSide">
         <div class="topText">
-        <p>This is not a real online service! You <em>Know</em> you need something like this in your life to help you realize your deepest dreams.</p>
-        <p>Sign up now get started.</p>
-        <p>You know you want to.</p>
+        <p>This is not a real online service! You Know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p>Sign up <em>now</em> get started.</p>
+        <p>You <em>know</em> you want to.</p>
       </div>
-        <form action="#"> 
-            <div class="forms"></div>
+        <form action="#">  
             <p>Let's do this!</p>
-           <div class="input">
-                <label for="Name">First Name</label><input type="text" name="FirstName" id="Name">
-                <label for="LastName">Last Name</label><input type="text" name="LastName"id="LastName">
+            <div class="forms">
+           <div class="formArea">
+                <label for="Name">FIRST NAME</label><input type="text" name="FirstName" id="Name">
+                </div>
+                <div class="formArea">
+                <label for="LastName">LAST NAME</label><input type="text" name="LastName"id="LastName">
             </div>
-            <div class="input">
-            <label for="Email">Email</label><input type="email" name="Email" id="Email">
-            <label for="Phone">Phone</label><input type="tel" name="Phone" id="Phone">
+            <div class="formArea">
+            <label for="Email">EMAIL</label><input type="email" name="Email" id="Email">
+             </div>
+             <div class="formArea">
+            <label for="Phone">PHONE NUMBER</label><input type="tel" name="Phone" id="Phone">
            </div>
-            <div class="input">
-                <label for="Password">Password</label><input type="password" name="Password" id="Password">
-               <label for="Confirmpassword">Confirm Password</label><input type="password" name="ConfirmPassword"id="Confirmpassword">
+           <div class="formArea">
+                <label for="Password">PASSWORD</label><input type="password" name="Password" id="Password" pattern=".{8,}" required>
+                </div>
+                <div class="formArea">
+               <label for="Confirmpassword">CONFIRM PASSWORD</label><input type="password" name="ConfirmPassword"id="Confirmpassword" pattern=".{8,}" required>
             </div>
-           
+           </div>
            <div class="bottom">
-            <button type="submit" name="createaccount" >Create account</button>
-            <p>Already have an account? Log in</p></div>
+            <button type="submit" name="createaccount" >Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p></div>
         </form>
         </div>
     </div>
